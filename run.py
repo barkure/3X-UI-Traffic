@@ -64,7 +64,7 @@ print(table_str)
 
 
 # Table 2 image
-image = Image.new('RGB', (1075, 600), color = (0, 0, 0))
+image = Image.new('RGB', (1080, 600), color = (0, 0, 0))
 # add info to text
 now = datetime.now()
 time_str = now.strftime("%m/%d/%Y %H:%M:%S")
