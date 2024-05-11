@@ -53,7 +53,7 @@ response = requests.get(url, verify=False, headers=headers)
 
 
 # Parse the response, get traffics data and calculate the amount
-unit_cost = 0.65 # CNY/GiB
+unit_cost = 0.065 # CNY/GiB
 data = response.json()
 obj = data['obj']
 client_traffics = []
